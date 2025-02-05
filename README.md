@@ -27,11 +27,25 @@ With StateSmith, your state machine diagram is code. Never worry about keeping y
 
 I couldn't find a quality state machine code generator that met my needs, had an attractive license, and was enjoyable to use, so I wrote StateSmith.
 
-If you are new to state machines, then prepare to level up your toolbox! They are incredibly helpful for [certain applications](https://github.com/StateSmith/StateSmith/wiki/App-Notes).
+If you are new to state machines, then prepare to level up your toolbox! 
 
-### Production ready
+### Powerful and Production ready
 
 StateSmith has a strong suite of tests (730+) and behavior specification coverage. The specification integration tests read a diagram file, generate executable state machine code, then compile and execute that code in another process and ensure that the state machine behavior is exactly what was expected. The same suite of integration tests run for each supported programming language. StateSmith has been starred the most of any state machine library on Github, and is in production use by several companies.
+
+
+### Easy to use
+statesmith is incredibly easy to use.
+ 1. write or draw a statemachine in the tool of your choice
+```
+# hello.mmd
+a -> b
+```
+ 2. run `statesmith hello.mmd`
+ 3. add the resulting state machine code to your C, C++, C#, Java, JavaScript, or TypeScript app.
+
+You can easily try out your statemachine using the built in simulator.
+
 
 ### The Diagram is always accurate!
 
