@@ -20,7 +20,18 @@ With StateSmith, your state machine diagram is code. Never worry about keeping y
 
 # Getting Started
 
-[THIS IS WHERE IT HAPPENS]
+It's easy to get started with StateSmith.
+
+1. First, write or draw a statemachine in the tool of your choice
+```
+# hello.mmd
+a -> b
+```
+ 2. run `statesmith hello.mmd`
+ 3. add the resulting state machine code to your C, C++, C#, Java, JavaScript, or TypeScript app.
+
+Learn more in our GETTING STARTED tutorial.
+
 
 
 # Why Use StateSmith?
@@ -36,13 +47,8 @@ StateSmith has a strong suite of tests (730+) and behavior specification coverag
 
 ### Easy to use
 statesmith is incredibly easy to use.
- 1. write or draw a statemachine in the tool of your choice
-```
-# hello.mmd
-a -> b
-```
- 2. run `statesmith hello.mmd`
- 3. add the resulting state machine code to your C, C++, C#, Java, JavaScript, or TypeScript app.
+
+ ...
 
 You can easily try out your statemachine using the built in simulator.
 
