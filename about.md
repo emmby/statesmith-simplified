@@ -17,3 +17,12 @@ ss.cli is a powerful shell-like tool that is interactive driven first, and xxx s
 we introduce an alternative tool that is less powerful, but more familiar to developers who commonly use build tooling. statesmith is intended to drop into any build system (Arduino IDE, GitHub actions, makefiles, ant, maven, node, etc.) and be easy to use from any shell. as such, it is non-interactive beyond the command line.
 
 users can continue to use ss.cli for more advanced usage at any time.
+
+
+#### examples embedded directly in docs
+using stack overflow 35080160
+
+
+
+#### TODO: INGEST MERMAID
+once ss can read mermaid, the developer workflow for people who want to embed their workflows in their readmes
