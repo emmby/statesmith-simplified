@@ -1,6 +1,6 @@
 # statesmith-2
 
-[This is an exploration of how we could make getting started on statesmith easier.]
+[adam: This is an exploration of how we could make getting started on statesmith easier.]
 
 
 # StateSmith
