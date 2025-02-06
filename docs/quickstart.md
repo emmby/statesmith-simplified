@@ -28,7 +28,7 @@ If you don't want to use one of the methods above, you can always download the b
 Let's create our first state machine. We'll use PlantUML to get started quickly. Later you can try one of our other supported diagraming formats.
 
 ```
-# hello.XXX
+# hello.puml
 @startuml
 Bob -> Alice : hello
 @enduml
