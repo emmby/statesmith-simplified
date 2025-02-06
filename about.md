@@ -23,6 +23,10 @@ users can continue to use ss.cli for more advanced usage at any time.
 using stack overflow 35080160
 
 
+#### using package managers
+
+meet the users where they are. support popular package managers via github actions
+
 
 #### TODO: INGEST MERMAID
 once ss can read mermaid, the developer workflow for people who want to embed their workflows in their readmes
