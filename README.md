@@ -51,6 +51,11 @@ statesmith is incredibly easy to use.
 
 You can easily try out your statemachine using the built in simulator.
 
+### Works with the tools you already use
+statesmith doesn't try to take over your entire workflow. It does not replace your IDE, require you to write tests in a custom language, or have its own build tool. It works with the tools you're already using, like GitHub, VS Code, Visual Studio, JUnit, Jest, etc.
+
+See [Integrations]() for recipes to integrate statesmith into your tooling.
+
 
 ### The Diagram is always accurate!
 
