@@ -3,7 +3,7 @@ about this repo
 
 ## notable design choices
 
-#### docs instead of wiki
+#### pages instead of wiki
 the wiki has been difficult to maintain. we can get a lot of the benefits of the wiki by adding a custom nav sidebar to the docs directory.
 
 #### minimize choices during onboarding
