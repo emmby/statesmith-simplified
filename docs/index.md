@@ -21,15 +21,12 @@ With StateSmith, your state machine diagram is code. Never worry about keeping y
 
 It's easy to get started with StateSmith.
 
-1. First, write or draw a statemachine in the tool of your choice
-```
-# hello.mmd
-a -> b
-```
- 2. run `statesmith hello.mmd`
+1. First, write or draw a statemachine in the tool of your choice<br />
+![hello](https://github.com/user-attachments/assets/49111aec-2d52-4b09-88ee-cbfcf5962847)
+ 2. run `statesmith hello.puml`
  3. add the resulting state machine code to your C, C++, C#, Java, JavaScript, or TypeScript app.
 
-Learn more in our [Quickstart](https://emmby.github.io/statesmith-simplified/) tutorial.
+Learn more in our [Quickstart](https://emmby.github.io/statesmith-simplified/quickstart.html) tutorial.
 
 
 
