@@ -22,13 +22,24 @@ With StateSmith, your state machine diagram is code. Never worry about keeping y
 It's easy to get started with StateSmith.
 
 1. First, write or draw a statemachine in the tool of your choice<br />
-```
+
+<table>
+<tr>
+<td>
+
+  ![hello](https://github.com/user-attachments/assets/49111aec-2d52-4b09-88ee-cbfcf5962847)
+
+</td>
+<td>
+<pre>
 # hello.puml
 @startuml
 Bob -> Alice : hello
-@enduml
-```
-![hello](https://github.com/user-attachments/assets/49111aec-2d52-4b09-88ee-cbfcf5962847)
+@enduml  
+</pre>
+</td>
+</tr>
+</table>
 
  2. run `statesmith hello.puml`
  3. add the resulting state machine code to your C, C++, C#, Java, JavaScript, or TypeScript app.
