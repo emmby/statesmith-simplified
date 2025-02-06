@@ -43,6 +43,9 @@
           <li>Quickstart</li>
           <li>Drawing state machines</li>      
         </ul>
+
+        {% include sidenav.html %}
+
         
         {% assign sorted = site.html_pages | sort:"rank" %}
         {% for item in sorted %}
