@@ -2,13 +2,23 @@
 
 First create the state machine. We'll use PlantUML to get started quickly. Later you can try one of our other supported diagraming formats.
 
-```
+<table>
+<tr>
+<td>
+
+  ![hello](https://github.com/user-attachments/assets/49111aec-2d52-4b09-88ee-cbfcf5962847)
+
+</td>
+<td>
+<pre>
 # hello.puml
 @startuml
 Bob -> Alice : hello
-@enduml
-```
-![hello](https://github.com/user-attachments/assets/49111aec-2d52-4b09-88ee-cbfcf5962847)
+@enduml  
+</pre>
+</td>
+</tr>
+</table>
 
 ## Generate the JavaScript Code
 
