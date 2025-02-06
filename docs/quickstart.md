@@ -40,7 +40,7 @@ Bob -> Alice : hello
 Now run `statesmith` to generate code for this state machine.
 
 ```
-% statesmith hello.XXX
+% statesmith hello.puml
 ```
 
 StateSmith defaults to generating HTML and JavaScript code. HTML and JS are broadly supported and easy to view in any browser, which is what we'll do now.
