@@ -1,6 +1,5 @@
-# statesmith-simplified
 
-> adam: This is an exploration of how we could make getting started on statesmith easier. see [about.md](about.md) for more details
+> *adam: This is an exploration of how we could make getting started on statesmith easier. see [about.md](about.md) for more details*
 
 
 # StateSmith
@@ -30,7 +29,7 @@ a -> b
  2. run `statesmith hello.mmd`
  3. add the resulting state machine code to your C, C++, C#, Java, JavaScript, or TypeScript app.
 
-Learn more in our GETTING STARTED tutorial.
+Learn more in our [Quickstart](https://emmby.github.io/statesmith-simplified/) tutorial.
 
 
 
