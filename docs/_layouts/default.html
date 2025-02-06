@@ -11,12 +11,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     <style>
-      a.navlink {
-        underline:none; 
-        color:inherit;
-      }
       ul.nav {
         list-style-type: none;
+      }
+      ul.nav li a {
+        underline:none; 
+        color:inherit;
       }
     </style>
   </head>
@@ -49,8 +49,8 @@
 
         <!-- Sitemap navigation -->
         <ul class="nav">
-          <li><a class="navlink" href="{{ "/" | absolute_url }}">Home</a></li>
-          <li><a class="navlink" href="quickstart">Quickstart</a></li>
+          <li><a href="{{ "/" | absolute_url }}">Home</a></li>
+          <li><a href="quickstart">Quickstart</a></li>
           <li><details><summary>Drawing state machines</summary>
             <ul>
               <li>PlantUML</li>
@@ -105,7 +105,7 @@
             </ul>
           </details>
           </li>
-          <li><a href="../examples">Examples</a></li>
+          <li><a href="examples.html">Examples</a></li>
           <li>Contributing</li>
         </ul>
 
