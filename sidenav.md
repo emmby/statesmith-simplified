@@ -7,10 +7,35 @@ Side Nav
 
 - Quickstart
 
-- Additional State Machine Features
+- Drawing state machines
+  - PlantUML
+  - DrawIO
+  - yED
+- Generating state machines in different target languages
+  - C / C++
+  - C#
+  - Java
+  - Javascript / TypeScript
+  - SVG diagrams
+  - ...
 - Using the Simulator
 - How to Test State Machines
-- Integrating with Other Platforms
+- Integrating with Other Tools
+  - Arduino IDE
+  - Github Docs
+  
+- State machine Language Reference
+  (pick a language? all input languages?)
+  - Statechart elements overview
+  - Statechart definition section
+  - States and transitions
+  - Choices
+  - Composite states
+  - Orthogonality
+  - History nodes
+  - Final state
+  - Event-driven vs. cycle-based execution
+  - Completion transitions
 
 - Advanced StateSmith Usage
   - Customizing StateSmith
@@ -18,3 +43,5 @@ Side Nav
   - 
 
 - Examples (link to examples directory, don't list each individually)
+
+- Contributing
