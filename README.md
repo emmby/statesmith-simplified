@@ -1,6 +1,6 @@
 # statesmith-2
 
-> adam: This is an exploration of how we could make getting started on statesmith easier. see (about.md) for more details
+> adam: This is an exploration of how we could make getting started on statesmith easier. see [about.md] for more details
 
 
 # StateSmith
