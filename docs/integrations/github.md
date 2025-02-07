@@ -63,7 +63,7 @@ You can add an include like the following to include your PlantUML code directly
 ```
 {% raw %}
 {% include_relative lightbulb.puml %}
-{% raw %}
+{% endraw %}
 ```
 
 <pre>
