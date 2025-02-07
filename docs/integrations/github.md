@@ -52,6 +52,7 @@ You can use the generated images in markdown or html:
 ```
 <img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.svg" >
 ```
+<img src="https://emmby.github.io/statesmith-simplified/integrations/lightbulb.svg" >
 
 
 
