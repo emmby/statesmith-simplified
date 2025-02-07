@@ -7,9 +7,28 @@ StateSmith is a cross platform, free/open source tool for synchronizing state ma
 
 With StateSmith, your state machine diagram is code. Never worry about keeping your statemachine documentation in sync with your code again.
 
-[TODO convert this to mermaid]
-![misc documentation-main page](https://github.com/user-attachments/assets/42fdb74b-0cd1-43b4-8103-7fd412ca7397)
+```mermaid
 
+flowchart TD
+
+DrawIO["Draw.IO"]
+PlantUML
+yED
+StateSmith@{ img: "https://github.com/emmby/statesmith-simplified/raw/main/docs/media/logo.png", pos: "t", w: 100, h: 100, constraint: "off" }
+
+CPP["C / C++"]
+CSharp["C#"]
+JS["JavaScript / TypeScript"]
+
+DrawIO --> StateSmith
+PlantUML --> StateSmith
+yED --> StateSmith
+
+StateSmith --> CPP
+StateSmith --> CSharp
+StateSmith --> JS
+
+```
 
 
 # Features
