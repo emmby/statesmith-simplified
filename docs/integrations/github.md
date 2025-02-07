@@ -8,6 +8,8 @@ You can use GitHub Actions to convert your PlantUML files to SVG, which can then
 
 The following recipe will find all PlantUML files in your repository, generate a corresponding SVG, and then commit the SVG to your repo.
 
+TODO convert this to using statesmith once statesmith supports image generation
+
 ```
 # Add this recipe to your repo here: .github/workflows/puml-to-svg.yml
 
