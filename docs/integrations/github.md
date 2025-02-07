@@ -40,7 +40,7 @@ jobs:
 
 Other image formats such as PNG are easily achievable by modifying the formula slightly.
 
-We use this action ourselves to generate the images for these docs. See it [in action here]([url](https://github.com/emmby/statesmith-simplified/blob/main/.github/workflows/puml-to-svg.yml)).
+We use this action ourselves to generate the images for these docs. See it [in action here](https://github.com/emmby/statesmith-simplified/blob/main/.github/workflows/puml-to-svg.yml).
 
 
 
