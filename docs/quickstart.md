@@ -53,22 +53,22 @@ On -> Off : Switch pressed
 Now run `statesmith` to generate code for this state machine.
 
 ```
-% statesmith hello.puml
+% statesmith light.puml
 ```
 
 StateSmith defaults to generating HTML and JavaScript code. HTML and JS are broadly supported and easy to view in any browser, which is what we'll do now.
 
 ## View the State Machine
 
-Open `hello.html` in your browser.
+Open `light.html` in your browser.
 
 TODO blah blah interact.
 
 Take a look at the generated files on the disk
-* `hello.html`: A simple simulator that runs your statemachine and allows you to interact with it.
-* `hello.js`: The generated JavaScript state machine. You can include this state machine in your JavaScript apps
+* `light.html`: A simple simulator that runs your statemachine and allows you to interact with it.
+* `light.js`: The generated JavaScript state machine. You can include this state machine in your JavaScript apps
 
-TODO links to examples dir for hello.html and hello.js
+TODO links to examples dir for light.html and light.js
 
 ## Next Steps
 
