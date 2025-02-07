@@ -31,19 +31,22 @@ Let's create our first state machine. We'll use PlantUML to get started quickly.
 <tr>
 <td>
 
-  <img src="https://github.com/user-attachments/assets/49111aec-2d52-4b09-88ee-cbfcf5962847" />
+<img src="/docs/media/light.svg" />
 
 </td>
 <td>
 <pre>
-# hello.puml
+# light.puml
 @startuml
-Bob -> Alice : hello
-@enduml  
+[*] --> Off
+Off -> On : Switch pressed
+On -> Off : Switch pressed
+@enduml
 </pre>
 </td>
 </tr>
 </table>
+
 
 ## Generate the default Code
 
