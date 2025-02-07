@@ -6,13 +6,7 @@ First create the state machine. We'll use PlantUML to get started quickly. Later
 <tr>
 <td>
 
-```mermaid
-flowchart LR
-  Start:::hidden --> Off
-  Off -- Switch pressed --> On 
-  On -- Switch pressed --> Off
-  classDef hidden display: none;
-```
+<img src="https://emmby.github.io/statesmith-simplified/media/light.svg" />
 
 </td>
 <td>
