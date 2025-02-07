@@ -61,16 +61,14 @@ GitHub Pages allows you to use Jekyll directives to do things like include files
 You can add an include like the following to include your PlantUML code directly into your documentation.
 
 ```
-<pre>
 {% include_relative lightbulb.puml %}
-</pre>
 ```
 
 <pre>
 {% include_relative lightbulb.puml %}
 </pre>
 
-This does not do anything on GitHub Docs markdown. It will only be processed for GitHub Pages.
+This does not do anything on GitHub Docs markdown. It will only be processed for GitHub Pages. See how we use it [here](https://github.com/emmby/statesmith-simplified/edit/main/docs/integrations/github.md).
 
 
 ## Displaying Diagrams using draw.io
