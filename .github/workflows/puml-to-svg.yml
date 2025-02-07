@@ -17,6 +17,7 @@ jobs:
       - name: Generate SVG Diagrams
         uses: holowinski/plantuml-github-action@1.2021.1
         with:
+          # plantuml command line options: https://plantuml.com/command-line 
           args: -v -tsvg **.puml
 
       - name: Push Local Changes
