@@ -1,5 +1,7 @@
 # Integrating with GitHub
 
+There are a few ways StateSmith makes it easy to integrate with GitHub. You can easily display state machine diagrams on GitHub Docs and Pages. You can use GitHub Actions to automatically generate state machine source code on push. Read on for more details.
+
 ## Displaying Diagrams using PlantUML
 
 You can use GitHub Actions to convert your PlantUML files to SVG, which can then be displayed in GitHub Docs and Pages.
