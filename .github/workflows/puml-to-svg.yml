@@ -1,6 +1,4 @@
 name: Generate PlantUML Diagrams
-uses: holowinski/plantuml-github-action@main
-
 on:
   push:
 
