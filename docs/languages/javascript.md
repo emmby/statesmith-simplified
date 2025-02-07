@@ -2,18 +2,12 @@
 
 First create the state machine. We'll use PlantUML to get started quickly. Later you can try one of our other supported diagraming formats.
 
-A
-![lightbulb](/docs/languages/lightbulb.svg)
-
-B
-<img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.svg">
-
 
 <table>
 <tr>
 <td>
 
-![lightbulb](/docs/languages/lightbulb.svg)
+<img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.svg">
 
 </td>
 <td>
