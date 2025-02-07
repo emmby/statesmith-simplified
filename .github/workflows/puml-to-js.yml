@@ -1,0 +1,20 @@
+name: Generate JavaScript state machines from PlantUML using StateSmith
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+
+jobs:
+  statesmith:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download ss.cli
+        run: |
+          curl -o ss.cli https://github.com/StateSmith/StateSmith/releases/download/cli-v0.17.4/ss.cli-linux-x64
+          chmod a+x ss.cli
+          ls -l 
