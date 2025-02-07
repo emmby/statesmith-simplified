@@ -25,20 +25,20 @@ First create the state machine. We'll use PlantUML to get started quickly. Later
 Now run `statesmith` to generate code for this state machine.
 
 ```
-% statesmith --lang=js light.puml
+% statesmith --lang=js lightbulb.puml
 ```
 
 ## View the State Machine
 
-Open `light.html` in your browser.
+Open `lightbulb.html` in your browser.
 
 TODO blah blah interact.
 
 Take a look at the generated files on the disk.
-* `light.html`: A simple simulator that runs your statemachine and allows you to interact with it.
-* `light.js`: The generated JavaScript state machine. You can include this state machine in your JavaScript apps
+* `lightbulb.html`: A simple simulator that runs your statemachine and allows you to interact with it.
+* `lightbulb.js`: The generated JavaScript state machine. You can include this state machine in your JavaScript apps
 
-TODO links to examples dir for light.html and light.js
+TODO links to examples dir for lightbulb.html and lightbulb.js
 
 ## Using the State Machine in your own app
 
