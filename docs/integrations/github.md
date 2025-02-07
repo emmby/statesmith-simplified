@@ -69,7 +69,7 @@ Upload your images to GitHub and using markdown or html to render them, eg.
 <img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.drawio.svg" >
 ```
 
-
+TODO drawio example svg
 
 ## Generating code on commit using StateSmith GitHub Actions
 
