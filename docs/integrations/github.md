@@ -57,9 +57,20 @@ You can use the generated images in markdown or html:
 
 ## Displaying PlantUML files on GitHub Pages
 
+GitHub Pages allows you to use Jekyll directives to do things like include files in the rendered output.
+You can add an include like the following to include your PlantUML code directly into your documentation.
+
+```
+<pre>
 {% include_relative lightbulb.puml %}
+</pre>
+```
 
+<pre>
+{% include_relative lightbulb.puml %}
+</pre>
 
+This does not do anything on GitHub Docs markdown. It will only be processed for GitHub Pages.
 
 
 ## Displaying Diagrams using draw.io
