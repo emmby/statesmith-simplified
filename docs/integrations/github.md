@@ -42,17 +42,30 @@ Other image formats such as PNG are easily achievable by modifying the formula s
 
 We use this action ourselves to generate the images for these docs. See it [in action here](https://github.com/emmby/statesmith-simplified/blob/main/.github/workflows/puml-to-svg.yml).
 
+You can use the generated images in markdown or html:
+
+```
+  ![lightbulb](lightbulb.svg)
+```
+```
+<img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.svg" >
+```
+
 
 
 ## Display Diagram using draw.io
 
 draw.io diagrams are just SVG, so they work on webpages out of the box!
 
-Upload your images to GitHub and using markdown to render them, eg. 
+Upload your images to GitHub and using markdown or html to render them, eg. 
 
 ```
   ![lightbulb](lightbulb.drawio.svg)
 ```
+```
+<img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.drawio.svg" >
+```
+
 
 
 ## Generating code on commit using StateSmith GitHub Actions
