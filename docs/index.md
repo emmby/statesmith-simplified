@@ -18,7 +18,7 @@ StateSmith@{ img: "https://github.com/emmby/statesmith-simplified/raw/main/docs/
 
 CPP["C / C++"]
 CSharp["C#"]
-JS["JavaScript / TypeScript"]
+JS["JavaScript<br />TypeScript"]
 
 DrawIO --> StateSmith
 PlantUML --> StateSmith
