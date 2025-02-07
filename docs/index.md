@@ -11,7 +11,7 @@ With StateSmith, your state machine diagram is code. Never worry about keeping y
 
 flowchart TD
 
-DrawIO["Draw.IO"]
+DrawIO["draw.io"]
 PlantUML
 yED
 StateSmith@{ img: "https://github.com/emmby/statesmith-simplified/raw/main/docs/media/logo.png", label:"StateSmith", pos: "t", w: 100, h: 100 }
