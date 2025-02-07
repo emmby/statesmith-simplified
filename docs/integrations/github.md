@@ -22,3 +22,8 @@ TODO
 ## Displaying Diagrams using PlantUML
 
 TODO
+
+
+## Generating code on commit using StateSmith GitHub Actions
+
+TODO
