@@ -6,6 +6,7 @@ GitHub Markdown has native support for Mermaid. Mermaid's Flowchart diagrams off
 to state diagrams and can represent many or most of what you might want to achieve in your state machines.
 
 ```mermaid
+flowchart TD
 Off -- Switch pressed --> On
 On -- Switch pressed --> Off
 ```
