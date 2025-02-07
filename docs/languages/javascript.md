@@ -6,14 +6,17 @@ First create the state machine. We'll use PlantUML to get started quickly. Later
 <tr>
 <td>
 
-<img src="https://emmby.github.io/statesmith-simplified/media/light.svg" />
+```mermaid
+flowchart LR
+Off -- Switch --> On 
+On -- Switch --> Off 
+```
 
 </td>
 <td>
 <pre>
 # light.puml
 @startuml
-[*] --> Off
 Off -> On : Switch pressed
 On -> Off : Switch pressed
 @enduml
