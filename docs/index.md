@@ -14,7 +14,7 @@ flowchart TD
 DrawIO["Draw.IO"]
 PlantUML
 yED
-StateSmith@{ img: "https://github.com/emmby/statesmith-simplified/raw/main/docs/media/logo.png", pos: "t", w: 100, h: 100, constraint: "off" }
+StateSmith@{ img: "https://github.com/emmby/statesmith-simplified/raw/main/docs/media/logo.png", label:"StateSmith", pos: "t", w: 100, h: 100 }
 
 CPP["C / C++"]
 CSharp["C#"]
