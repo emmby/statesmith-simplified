@@ -6,7 +6,7 @@ First create the state machine. We'll use PlantUML to get started quickly. Later
 <tr>
 <td>
 
-![light](/docs/media/light.svg)
+<img src="/docs/media/light.svg" />
 
 </td>
 <td>
