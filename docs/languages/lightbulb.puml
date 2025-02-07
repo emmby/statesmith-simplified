@@ -1,4 +1,5 @@
 @startuml
+' lightbulb.puml
 [*] -> Off
 Off -> On : Switch pressed
 On -> Off : Switch pressed
