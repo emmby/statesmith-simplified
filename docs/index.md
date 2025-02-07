@@ -7,6 +7,8 @@ StateSmith is a cross platform, free/open source tool for synchronizing state ma
 
 With StateSmith, your state machine diagram is code. Never worry about keeping your statemachine documentation in sync with your code again.
 
+Visit our [Quickstart](/docs/quickstart.md) to get started.
+
 ```mermaid
 
 flowchart TD
@@ -31,6 +33,7 @@ yED --> StateSmith
 StateSmith --> code
 
 ```
+
 
 
 # Features
