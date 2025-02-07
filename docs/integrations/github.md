@@ -43,6 +43,4 @@ These diagrams will display properly in your README.md and other markdown files 
 #### GitHub Pages
 
 By default, GitHub Pages do not natively display Mermaid diagrams. But you can customize the template
-used to generate your pages to add Mermaid rendering.
-
-TODO 
+used to generate your pages to add Mermaid rendering. Stackoverflow has suggestions on how to do this.
