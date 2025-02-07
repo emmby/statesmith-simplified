@@ -6,7 +6,7 @@ First create the state machine. We'll use PlantUML to get started quickly. Later
 <tr>
 <td>
 
-<img src="/docs/media/light.svg" />
+<img src="https://emmby.github.io/statesmith-simplified/media/light.svg" />
 
 </td>
 <td>
