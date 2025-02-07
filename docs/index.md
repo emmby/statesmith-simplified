@@ -27,19 +27,22 @@ It's easy to get started with StateSmith.
 <tr>
 <td>
 
-  <img src="https://github.com/user-attachments/assets/49111aec-2d52-4b09-88ee-cbfcf5962847" />
+<img src="/docs/media/light.svg" />
 
 </td>
 <td>
 <pre>
-# hello.puml
+# light.puml
 @startuml
-Bob -> Alice : hello
-@enduml  
+[*] --> Off
+Off -> On : Switch pressed
+On -> Off : Switch pressed
+@enduml
 </pre>
 </td>
 </tr>
 </table>
+
 
  2. run `statesmith hello.puml`
  3. add the resulting state machine code to your C, C++, C#, Java, JavaScript, or TypeScript app.
