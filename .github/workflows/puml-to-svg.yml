@@ -12,4 +12,10 @@ jobs:
       - name: Generate SVG Diagrams
         uses: holowinski/plantuml-github-action@1.2021.1
         with:
-          args: -v -tsvg $(find . -name '*.puml')
+          args: -v -tsvg **.puml
+
+      - name: Push Local Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Generate SVG files for PlantUML diagrams"
+          branch: ${{ github.head_ref }}
