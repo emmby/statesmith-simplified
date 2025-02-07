@@ -16,18 +16,19 @@ PlantUML
 yED
 StateSmith@{ img: "https://github.com/emmby/statesmith-simplified/raw/main/docs/media/logo.png", label:"StateSmith", pos: "t", w: 100, h: 100 }
 
+
+subgraph code
 CPP["C / C++"]
 CSharp["C#"]
 JS["JavaScript<br />TypeScript"]
+Python
+end
 
 DrawIO --> StateSmith
 PlantUML --> StateSmith
 yED --> StateSmith
 
-StateSmith --> CPP
-StateSmith --> CSharp
-StateSmith --> JS
-StateSmith --> Python
+StateSmith --> code
 
 ```
 
