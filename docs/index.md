@@ -1,5 +1,5 @@
 
-> *adam: This is an exploration of how we could make getting started on statesmith easier. see [about.md](about.md) for more details*
+> *adam: This is an exploration of how we could make getting started on statesmith easier. see docs/about.md for more details*
 
 
 # StateSmith
