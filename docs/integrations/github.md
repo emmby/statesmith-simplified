@@ -55,8 +55,14 @@ You can use the generated images in markdown or html:
 <img src="lightbulb.svg">
 
 
+## Displaying PlantUML files on GitHub Pages
 
-## Display Diagram using draw.io
+{% include_relative lightbulb.puml %}
+
+
+
+
+## Displaying Diagrams using draw.io
 
 draw.io diagrams are just SVG, so they work on webpages out of the box!
 
