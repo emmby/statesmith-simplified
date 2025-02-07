@@ -25,6 +25,17 @@ TODO
 TODO
 
 
+## Display Diagram using draw.io
+
+draw.io diagrams are just SVG, so they work on webpages out of the box!
+
+Upload your images to GitHub and using markdown to render them, eg. 
+
+```
+  ![lightbulb](lightbulb.drawio.svg)
+```
+
+
 ## Generating code on commit using StateSmith GitHub Actions
 
 TODO
