@@ -27,6 +27,10 @@ using stack overflow 35080160
 
 meet the users where they are. support popular package managers via github actions
 
+#### low-maintenance dark mode support
+
+mermaid diagrams automatically adjust to darkmode
+
 
 #### TODO: INGEST MERMAID
 once ss can read mermaid, the developer workflow for people who want to embed their workflows in their readmes
