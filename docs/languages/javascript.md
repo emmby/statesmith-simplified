@@ -8,8 +8,10 @@ First create the state machine. We'll use PlantUML to get started quickly. Later
 
 ```mermaid
 flowchart LR
-Off -- Switch --> On 
-On -- Switch --> Off 
+  Start:::hidden --> Off
+  Off -- Switch pressed --> On 
+  On -- Switch pressed --> Off
+  classDef hidden display: none;
 ```
 
 </td>
@@ -17,6 +19,7 @@ On -- Switch --> Off
 <pre>
 # light.puml
 @startuml
+[*] -> Off
 Off -> On : Switch pressed
 On -> Off : Switch pressed
 @enduml
