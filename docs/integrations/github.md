@@ -50,9 +50,9 @@ You can use the generated images in markdown or html:
   ![lightbulb](lightbulb.svg)
 ```
 ```
-<img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.svg" >
+<img src="lightbulb.svg">
 ```
-<img src="https://emmby.github.io/statesmith-simplified/integrations/lightbulb.svg" >
+<img src="lightbulb.svg">
 
 
 
