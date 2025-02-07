@@ -9,9 +9,9 @@ First create the state machine. We'll use PlantUML to get started quickly. Later
 <pre>
   <code class="language-mermaid">
 flowchart LR
-  START:::hidden --> Off
-  Off -- Switch pressed --> On
-  On -- Switch pressed --> Off
+  START:::hidden --&gt; Off
+  Off -- Switch pressed --&gt; On
+  On -- Switch pressed --&gt; Off
   classDef hidden display: none;
   </code>
 </pre>
