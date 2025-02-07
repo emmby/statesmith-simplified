@@ -13,12 +13,7 @@ First create the state machine. We'll use PlantUML to get started quickly. Later
 </td>
 <td>
 <pre>
-@startuml
-' light.puml
-[*] -> Off
-Off -> On : Switch pressed
-On -> Off : Switch pressed
-@enduml
+{% include_relative lightbulb.puml %}
 </pre>
 </td>
 </tr>
