@@ -2,7 +2,46 @@
 
 ## Displaying Diagrams using PlantUML
 
-TODO
+You can use GitHub Actions to convert your PlantUML files to SVG, which can then be displayed in GitHub Docs and Pages.
+
+The following recipe will find all PlantUML files in your repository, generate a corresponding SVG, and then commit the SVG to your repo.
+
+```
+# Add this recipe to your repo here: .github/workflows/puml-to-svg.yml
+
+name: Generate PlantUML Diagrams
+on:
+  push:
+
+permissions:
+  # Give the default GITHUB_TOKEN write permission to commit and push the
+  # added or changed files to the repository.
+  contents: write
+
+jobs:
+  plantuml:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
+
+      - name: Generate SVG Diagrams
+        uses: holowinski/plantuml-github-action@1.2021.1
+        with:
+          # plantuml command line options: https://plantuml.com/command-line 
+          args: -v -tsvg **.puml
+
+      - name: Push Local Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Generate SVG files for PlantUML diagrams"
+          branch: ${{ github.head_ref }}
+```
+
+Other image formats such as PNG are easily achievable by modifying the formula slightly.
+
+We use this action ourselves to generate the images for these docs. See it [in action here]([url](https://github.com/emmby/statesmith-simplified/blob/main/.github/workflows/puml-to-svg.yml)).
+
 
 
 ## Display Diagram using draw.io
