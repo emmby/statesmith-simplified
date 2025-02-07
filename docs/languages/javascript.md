@@ -2,19 +2,18 @@
 
 First create the state machine. We'll use PlantUML to get started quickly. Later you can try one of our other supported diagraming formats.
 
+A
+![lightbulb](/docs/languages/lightbulb.svg)
+
+B
+<img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.svg">
+
+
 <table>
 <tr>
 <td>
 
-<pre>
-  <code class="language-mermaid">
-flowchart LR
-  START:::hidden --&gt; Off
-  Off -- Switch pressed --&gt; On
-  On -- Switch pressed --&gt; Off
-  classDef hidden display: none;
-  </code>
-</pre>
+![lightbulb](/docs/languages/lightbulb.svg)
 
 </td>
 <td>
