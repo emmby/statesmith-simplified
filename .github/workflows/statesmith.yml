@@ -22,5 +22,12 @@ jobs:
           ls -l 
           ./ss.cli --version
 
+      - name: Configure ss.cli
+        run: |
+          mkdir -p /home/runner/.config/StateSmith.Cli
+          echo "{"SecondsBetweenUpdateChecks": 3600}" > /home/runner/.config/StateSmith.Cli
+          ls -l /home/runner/.config/StateSmith.Cli
+          cat /home/runner/.config/StateSmith.Cli
+          
       - name: Generate JavaScript state machines using statesmith
         run: ./ss.cli run --lang=JavaScript -hr
