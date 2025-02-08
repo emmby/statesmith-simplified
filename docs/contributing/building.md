@@ -2,7 +2,7 @@
 
 ## Install prerequisites
 
-Install `dotnet-sdk-8.0`.
+Install `dotnet-sdk-8.0` from https://dotnet.microsoft.com/en-us/download
 
 
 ### Build using the Command Line (any platform)
