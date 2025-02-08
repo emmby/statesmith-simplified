@@ -6,6 +6,10 @@
 
 On Windows I recommend the free edition of [Visual Studio](https://visualstudio.microsoft.com/downloads/). It just works. It is free for open source collaborators.
 
+#### Building
+
+TODO
+
 
 #### Running Tests
 Open the test explorer in Visual Studio.
@@ -22,10 +26,18 @@ Then click on the green arrows to run the selected/all tests.
 TODO
 
 
+
+
 ## VS Code (any platform)
 Expect a bit of googling to figure this out. Hit us up on discord if you need help.
 
 These instructions are for the older vscode C# extension where `OmniSharp` is used. I don't know how to use the latest C# dev tools extension (I don't use it because it doesn't support .csx files).
+
+#### Building
+
+From a file in the StateSmith repo, select `Run Build Tasks`
+<img width="609" alt="Run Build Tasks" src="https://github.com/user-attachments/assets/ad4a9bbe-2499-41b8-83a9-03dc28c7d3cf" />
+
 
 #### Running Tests
 Make sure `Code Lens` is enabled in vscode settings.
