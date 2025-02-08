@@ -50,6 +50,32 @@ Helpful tips:
 <br>
 <br>
 
+## Run the built ss.cli
+
+Look for the StateSmith.Cli binary you built in the bin directory.
+
+```
+StateSmith/src$ ./bin/Debug/net8.0/StateSmith.Cli
+bin/Debug/net8.0/StateSmith.Cli
+Using settings directory: /Users/mike/Library/Application Support/StateSmith.Cli
+StateSmith.Cli 0.10.0+097e1c1f36a4cce898b47aa426e9622999ff62ce
+
+Usage:
+
+  run         Run StateSmith code generation.
+
+  run-lite    Run StateSmith code generation.
+
+  create      Create a new StateSmith project from template.
+
+  setup       Set up vscode for StateSmith & csx files.
+
+
+To get help for a specific verb, use the command name followed by --help
+The `create` verb currently has no options and runs a wizard.
+
+```
+
 
 ## 🔧 Troubleshooting
 
