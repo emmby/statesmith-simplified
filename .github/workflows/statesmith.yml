@@ -21,10 +21,10 @@ jobs:
           chmod a+x ss.cli
           ls -l 
           ./ss.cli --version
-          find . -name '*.puml'
+          find . -name 'lightbulb*'
 
       - name: Generate JavaScript state machines using statesmith
         run: |
-          #./ss.cli run --lang=JavaScript --no-ask --no-csx -hr
-          ./ss.cli run --lang=JavaScript --no-ask --no-csx -h -b -i '**/*.puml'
+          ./ss.cli run --lang=JavaScript --no-ask --no-csx -hr -b
+          #./ss.cli run --lang=JavaScript --no-ask --no-csx -h -b -i '**/*.puml'
           find . -name 'lightbulb*'
