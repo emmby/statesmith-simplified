@@ -24,4 +24,6 @@ jobs:
           find . -name '*.puml'
 
       - name: Generate JavaScript state machines using statesmith
-        run: ./ss.cli run --lang=JavaScript --no-ask --no-csx -hr
+        run: |
+          ./ss.cli run --lang=JavaScript --no-ask --no-csx -hr
+          find . -name 'lightbulb*'
