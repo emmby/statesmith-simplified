@@ -22,6 +22,5 @@ jobs:
           ls -l 
           ./ss.cli --version
 
-          
       - name: Generate JavaScript state machines using statesmith
-        run: ./ss.cli run --lang=JavaScript -hr --no-ask --no-csx
+        run: ./ss.cli run --lang=JavaScript --no-ask --no-csx -i '**/*.puml'
