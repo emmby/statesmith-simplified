@@ -20,5 +20,5 @@ jobs:
           curl -sSL -o ss.cli https://github.com/StateSmith/StateSmith/releases/download/cli-v0.17.4/ss.cli-linux-x64
           chmod a+x ss.cli
           ls -l 
-          ss.cli --version
+          ./ss.cli --version
 
