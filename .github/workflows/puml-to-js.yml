@@ -22,3 +22,5 @@ jobs:
           ls -l 
           ./ss.cli --version
 
+      - name: Generate JavaScript state machines using statesmith
+        run: ./ss.cli run --lang=JavaScript -hr
