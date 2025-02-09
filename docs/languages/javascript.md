@@ -1,7 +1,8 @@
 # Generating JavaScript
 
-First create the state machine. We'll use PlantUML to get started quickly. Later you can try one of our other supported diagraming formats.
+This tutorial will walk you through how to generate JavaScript source code for a simple state machine. Even if you don't intend to build JavaScript apps, this tutorial is a great way to get started with StateSmith because it will show you how to generate an interactive simulator for your state machines that can be viewed in a web browser.
 
+To get started, first you'll need to draw a state machine. We'll use PlantUML to get started quickly. Later you can try one of our other supported diagraming formats.
 
 
 <table>
