@@ -63,3 +63,4 @@ github integration documentation.
 * The github action is a bit overly-enthusiastic. It generates more languages than
   necessary. It might be better to have each directory have a little makefile to
   generate just what it needs.
+* Add a link to allow readers to file feedback bugs in the footer
