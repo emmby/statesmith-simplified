@@ -1,35 +1,43 @@
-about this repo
+# about this repo
+
+## PR message
+Title: 
+
+This PR addresses various onboarding usability challenges for new statesmith users.
+
+#### Documentation is consolidated onto GitHub Pages.
+Previously, documentation was a mix
+  of GitHub Docs, Pages, and Wiki. This made it hard to find content, resulted in parts
+  of things being documented in the wiki and other parts in docs, etc. The Wiki was difficult
+  to maintain and Docs was not as flexible as Pages. I added a custom sidebar to the Pages
+  template to make navigation similar (or better) really than the wiki.
+  
+#### Simplifed onboarding.
+
+  Statesmith is powerful. as a new user, it can be very challenging to figure out how to get started. the new ss.cli helps, but even so it's hard to get started.
+  
+  the new onboarding documentation tackles this by minimizing choices. it gets users up and running with a simple, universally available example, and then builds on that. users can still choose their own adventure and escape into "advanced mode" at any time.
 
 
-## notable design choices
-
-#### pages instead of wiki
-the wiki has been difficult to maintain. we can get a lot of the benefits of the wiki by adding a custom nav sidebar to the docs directory.
-
-#### minimize choices during onboarding
-statesmith is powerful. as a new user, it can be very challenging to figure out how to get started. the new ss.cli helps, but even so it's hard to get started.
-
-the new onboarding documentation tackles this by minimizing choices. it gets users up and running with a simple, universally available example, and then builds on that. users can still choose their own adventure and escape into "advanced mode" at any time.
-
-#### a simplified, posix style build tool
+#### A simplified, posix style build tool.
 ss.cli is a powerful shell-like tool that is interactive driven first, and xxx second
 
 we introduce an alternative tool that is less powerful, but more familiar to developers who commonly use build tooling. statesmith is intended to drop into any build system (Arduino IDE, GitHub actions, makefiles, ant, maven, node, etc.) and be easy to use from any shell. as such, it is non-interactive beyond the command line.
 
 users can continue to use ss.cli for more advanced usage at any time.
 
-
-#### examples embedded directly in docs
-using stack overflow 35080160
-
-
-#### using package managers
-
+#### A focus on integrating with familiar tools.
+xxx
 meet the users where they are. support popular package managers via github actions
+github integration documentation.
+
+#### Other notes
+
+* Examples are embedded directly into the documentation. Similar to mermaid, but using PlantUML instead.
+* Make PlantUML work out of the box https://github.com/StateSmith/StateSmith/issues/438
 
 
-#### making plantuml work out of the box
-https://github.com/StateSmith/StateSmith/issues/438
+
 
 
 
