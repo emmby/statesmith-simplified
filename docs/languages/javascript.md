@@ -8,10 +8,9 @@ This tutorial will walk you through how to generate JavaScript source code for a
 This tutorial assumes you have completed the following sections before proceeding:
 * [Quickstart](docs/quickstart/quickstart.md)
 
-## Adding event handling to your state machine
+## Adding actions to your state machine
 
-We will want to be able to execute some code whenever the state machine changes state, so let's add some
-event handling to the `Off` and `On` states.
+We will want to be able to execute some code whenever the state machine changes state, so let's add some actions to the `Off` and `On` states.
 
 Update your lightbulb state machine to look like the following:
 
