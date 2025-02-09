@@ -2,10 +2,10 @@
 
 all: lightbulb.svg lightbulb.js
 
-lightbulb.svg: /tmp/plantuml.jar lightbulb.puml
+lightbulb.svg: /tmp/plantuml.jar
 	java -jar /tmp/plantuml.jar -headless -tsvg lightbulb.puml	
 	
-lightbulb.js: lightbulb.puml
+lightbulb.js: 
 	ss.cli run --lang=JavaScript --no-ask --no-csx -h -b
 
 # This depends on graphviz
