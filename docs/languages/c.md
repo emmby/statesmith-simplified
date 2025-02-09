@@ -99,7 +99,8 @@ Generate the state machine as before, but rename the `.c` file to `.inc.h`:
 % mv lightbulb.c lightbulb.inc.h
 ```
 
-Create a new `myapp2.c` file that contains the following code:
+Create a new `myapp2.c` file that contains the following code. It is identical
+except for the part labeled `NEW NEW NEW`.
 
 ```c
 /* myapp2.c */

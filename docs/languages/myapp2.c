@@ -12,6 +12,9 @@ void enter_off() {
 
 /* 
  * Include the generated state machine.
+ * 
+ * NEW NEW NEW
+ * 
  * We manually renamed lightbulb.c to lightbulb.inc.h to emphasize
  * that it is an included file and not a standalone source file.
  */
