@@ -3,7 +3,7 @@
 ## Prerequisites
 
 This tutorial assumes you have completed the following sections before proceeding:
-* [Quickstart](docs/quickstart/quickstart.md)
+* [Quickstart](docs/quickstart/)
 
 
 
