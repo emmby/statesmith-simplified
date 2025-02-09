@@ -68,12 +68,6 @@ add the following contents to a new file `myapp.c`. This code will:
 
 To run your app, compile it with the C compiler of your choice. Here we use Gnu CC
 
-> [!NOTE]
-> TODO fix implicit-function-declaration error.
-> 
-> `lightbulb.c` does not have a forward declaration for `enter_off()` and `enter_on()`
-> which will cause errors in compilers that enforce that requirement.
-> This will be fixed in a future version of these docs.
 
 ```
 % gcc -o myapp -Wno-error=implicit-function-declaration *.c
@@ -88,3 +82,48 @@ Lightbulb is off
 ```
 
 Congratulations! You've now written your first app using a StateSmith state machine!
+
+
+## Getting rid of that pesky implicit-function-declaration error.
+
+The previous code works, but it causes some errors in the compiler. We had to disable the `implicit-function-declaration` warning in `gcc` to get it to compile.
+
+Let's fix this with the `.inc.h` technique that is commonly used in situations like this but may be less familiar to many C developers, which is why we didn't start with it.
+
+Generate the state machine as before, but rename the `.c` file to `.inc.h`:
+
+```
+% statesmith --lang=c99 lightbulb.puml
+```
+```
+% mv lightbulb.c lightbulb.inc.h
+```
+
+Create a new `myapp2.c` file that contains the following code:
+
+```c
+/* myapp2.c */
+{% include_relative myapp2.c %}
+```
+
+Now compile the app. Voila! No errors.
+```
+% gcc -o myapp2 *.c
+% ./myapp2
+```
+
+
+> [!INFO]
+> Why does this work?
+> 
+> In the first example, `myapp.c` and `lightbulb.c` were both `.c` files and expected to
+> be fully specified and independently compilable. This was not the case for `lightbulb.c`
+> because it was missing type declarations for `enter_on()` and `enter_off()`.
+>
+> We can overcome this problem by including `lightbulb.c` in `myapp2.c`. Together, 
+> `myapp2.c` has all the declarations needed to be a completely-specified C file.
+> However, it's unexpected to include one C file from another, so a convention
+> has emerged to name the included file `.inc` or `.inc.h`.
+>
+> Either extension is fine. We recommend using `.inc.h` for some tooling like Arduino IDE
+> which doesn't know about `.inc` files.
