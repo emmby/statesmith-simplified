@@ -9,9 +9,14 @@ This PR addresses various onboarding usability challenges for new statesmith use
 Previously, documentation was a mix
   of GitHub Docs, Pages, and Wiki. This made it hard to find content, resulted in parts
   of things being documented in the wiki and other parts in docs, etc. The Wiki was difficult
-  to maintain and Docs was not as flexible as Pages. I added a custom sidebar to the Pages
-  template to make navigation similar (or better) really than the wiki.
-  
+  to maintain and Docs was not as flexible as Pages. 
+
+  Using Pages enabled us to customize, doing things like:
+  * add a navigation sidebar
+  * embed *.puml and generated *.svg files directly into the page
+  * embed the simulator directly into the page as an iframe
+
+    
 #### Simplifed onboarding.
 
   Statesmith is powerful. as a new user, it can be very challenging to figure out how to get started. the new ss.cli helps, but even so it's hard to get started.
