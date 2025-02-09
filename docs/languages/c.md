@@ -108,7 +108,7 @@ Create a new `myapp2.c` file that contains the following code:
 
 Now compile the app. Voila! No errors.
 ```
-% gcc -o myapp2 *.c
+% gcc -o myapp2 myapp2.c
 % ./myapp2
 ```
 
