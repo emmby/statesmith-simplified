@@ -68,7 +68,9 @@ add the following contents to a new file `myapp.c`. This code will:
 
 To run your app, compile it with the C compiler of your choice. Here we use Gnu CC
 
-> [!TODO] fix implicit-function-declaration error
+> [!NOTE]
+> TODO fix implicit-function-declaration error.
+> 
 > `lightbulb.c` does not have a forward declaration for `enter_off()` and `enter_on()`
 > which will cause errors in compilers that enforce that requirement.
 > This will be fixed in a future version of these docs.
