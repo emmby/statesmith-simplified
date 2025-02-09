@@ -11,7 +11,8 @@ We recommend completing the following sections before proceeding with this tutor
 
 ## Using the State Machine in your own app
 
-> [!WARN] TODO this depends on migrating the tracer functionality in the simulator into the state machine.
+> [!WARNING] 
+> TODO this depends on migrating the tracer functionality in the simulator into the state machine.
 
 To use the state machine you created in Quickstart, you'll create a simple html page that loads and uses the state machine.
 
