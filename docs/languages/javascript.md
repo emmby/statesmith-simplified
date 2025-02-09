@@ -43,7 +43,7 @@ Open the `lightbulb.sim.html` simulator in your web browser. Here's the same sim
 <iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html"></iframe>
 
 
-Let's look at how to use `lightbulb.js` in your own app.
+Now that you've been able to interact with your state machine, let's look at how to use it in your own app.
 
 
 ## Using the State Machine in your own app
