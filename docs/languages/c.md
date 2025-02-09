@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-We recomend completing the following sections before proceeding with this tutorial:
+This tutorial assumes you have completed the following sections before proceeding:
 * [Quickstart](docs/quickstart/quickstart.md)
 
 

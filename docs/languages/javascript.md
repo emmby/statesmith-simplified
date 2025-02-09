@@ -5,7 +5,7 @@ This tutorial will walk you through how to generate JavaScript source code for a
 
 ## Prerequisites
 
-We recommend completing the following sections before proceeding with this tutorial:
+This tutorial assumes you have completed the following sections before proceeding:
 * [Quickstart](docs/quickstart/quickstart.md)
 
 ## Adding event handling to your state machine
