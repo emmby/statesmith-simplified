@@ -1,0 +1,32 @@
+<html >
+<head>
+
+    <!-- Load your state machine here -->
+    <script src="lightbulb.js"></script>
+
+    <!-- Use your state machine here -->
+    <script>
+        // Create an object that will do things when the state changes,
+        // and pass that object to the state machine.
+        // TODO how does the user know what the state names are?
+        statemachine.addListener( {
+            OFF_Switch: function() {
+                document.querySelector('#bulb').textContent = "off";
+            },
+            ON_Switch: function() {
+                document.querySelector('#bulb').textContent = "on";
+            }
+        } );
+
+        // Create and start the state machine
+        var statemachine = new Lightbulb();
+        statemachine.start();
+
+    </script>
+</head>
+<body>
+    <h1>Lightbulb example</h1>
+    <p>Light: <span id="bulb"></span> </p>
+    <button onclick="statemachine.dispatchEvent(Lightbulb.EventId.SWITCH)">Switch</button>
+</body>
+</html>

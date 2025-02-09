@@ -50,16 +50,24 @@ Next let's look at how to use it in your own app.
 
 ## Using the State Machine in your own app
 
-examine the js state machine
+> [!WARN] TODO this depends on migrating the tracer functionality in the simulator into the state machine.
 
-write an app that uses the state machine
+To use your new statemachine, you'll create a simple html page that loads and uses it.
+This page will:
+  1. Load your state machine.
+  2. Pass it a callback with all your implementation details that tell it what to do when
+     it enters various states.
+  3. Create a button that firest the `SWITCH` event.
+  3. Run the machine.
+
+Create a new file called `myapp.html` and add the following
 
 ```
-<!-- myapp.html -->
-
-xxx
+{% include_relative myapp.html %}
 ```
 
+Now open this `myapp.html` in your browser. Notice that the page updates every time you click the Switch button!
 
+See this in action online with [myapp.html](myapp.html): [interactive demo](https://emmby.github.io/statesmith-simplified/languages/myapp.html)
 
 
