@@ -1,13 +1,6 @@
 name: Generate JavaScript state machines from PlantUML using StateSmith
-
 on:
   push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
-
-  # Allows you to run this workflow manually from the Actions tab (FOR TESTING)
-  workflow_dispatch:
 
 jobs:
   statesmith:
@@ -26,5 +19,10 @@ jobs:
         run: |
           find . -name 'lightbulb*'
           ./ss.cli run --lang=JavaScript --no-ask --no-csx -hr -b
-          #./ss.cli run --lang=JavaScript --no-ask --no-csx -h -b -i '**/*.puml'
           find . -name 'lightbulb*'
+          
+      - name: Push Local Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Generate JS for state machines using StateSmith"
+          branch: ${{ github.head_ref }}
