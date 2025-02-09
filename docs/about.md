@@ -26,9 +26,9 @@ the simulator, we can also make them interactive.
     
 #### Simplifed onboarding.
 
-  Statesmith is powerful. as a new user, it can be very challenging to figure out how to get started. the new ss.cli helps, but even so it's hard to get started.
+Statesmith is powerful. as a new user, it can be very challenging to figure out how to get started. the new ss.cli helps, but even so it's hard to get started.
   
-  the new onboarding documentation tackles this by minimizing choices. it gets users up and running with a simple, universally available example, and then builds on that. users can still choose their own adventure and escape into "advanced mode" at any time.
+the new onboarding documentation tackles this by minimizing choices. it gets users up and running with a simple, universally available example, and then builds on that. users can still choose their own adventure and escape into "advanced mode" at any time.
 
 
 #### A simplified, posix style build tool.
@@ -47,6 +47,7 @@ github integration documentation.
 
 * Examples are embedded directly into the documentation. Similar to mermaid, but using PlantUML instead.
 * Make PlantUML work out of the box https://github.com/StateSmith/StateSmith/issues/438
+* Documentation looks good in dark and light modes
 
 
 
@@ -54,6 +55,5 @@ github integration documentation.
 
 
 ## TODO
-* low maintenance dark mode support - how do plantuml diagrams look in dark mode? 
 * package manager support
 * google analytics support to track broken pages
