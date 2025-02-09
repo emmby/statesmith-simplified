@@ -93,14 +93,16 @@ statesmith is incredibly easy to use.
 
 You can easily try out your statemachine using the built in simulator.
 
-### Works with the tools you already use
-statesmith doesn't try to take over your entire workflow. It does not replace your IDE, require you to write tests in a custom language, or have its own build tool. It works with the tools you're already using, like GitHub, VS Code, Visual Studio, JUnit, Jest, etc.
-
-See [Integrations]() for recipes to integrate statesmith into your tooling.
-
 
 ### The Diagram is always accurate!
 
 Before I created StateSmith, it was always a pain trying to manually synchronize a hand written state machine with a drawing. Urgent client requests come in and you update the code, but do you and your team always remember to update the drawing? Probably not and so the rot begins. Documentation trust issues arise and as designs get larger, the effort to ensure the diagram is accurate starts to become quite punishing.
 
 Now that we use StateSmith at my work, I never have to worry about the above. I love generating fully working code **from** the documentation. Incredibly helpful for teams and communicating with clients.
+
+
+### Works with the tools you already use
+statesmith doesn't try to take over your entire workflow. It does not replace your IDE, require you to write tests in a custom language, or have its own build tool. It works with the tools you're already using, like GitHub, VS Code, Visual Studio, JUnit, Jest, etc.
+
+See [Integrations]() for recipes to integrate statesmith into your tooling.
+
