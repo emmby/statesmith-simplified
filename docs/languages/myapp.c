@@ -1,35 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Implement the callbacks that are referenced in lightbulb.puml */
+void enter_on() {
+  printf("Lightbulb is on\n");
+}
+
+void enter_off() {
+  printf("Lightbulb is off\n");
+}
+
+/* Include the generated state machine */
 #include "lightbulb.h"
-
-/* Implement the callbacks that are defined in the header */
-/* TODO */
-
 
 /* Instantiate the state machine struct */
 lightbulb sm;
 
-int main() {
-    /* Initialize and start the state machine */
-    lightbulb_ctor(&sm);
-    lightbulb_start(&sm);
-
-    /* Start an event loop to respond to events and update the state machine. */
-    while(1) {
-        loop();
-    }
-
-    return 0;
+/* 
+ * The event loop that will be started by main. 
+ * Respond to events and update the state machine. 
+ */
+void loop() {
+  int c = getchar(); // we don't care what the character is, we just need to consume it
+  lightbulb_dispatch_event(&sm, lightbulb_EventId_SWITCH);
 }
 
-void loop() {
-  /*
-   * (optional) Respond to events.
-   * For example, on a button press you might trigger 
-   * BeadSorter_dispatch_event(&sm, BeadSorter_EventId_SWITCH);
-   */
+int main() {
+  printf("Press <enter> to toggle the light switch.\n");
+  printf("Press ^C to quit.\n");
 
-  /* 
-   * Advance the state machine.
-   * Dispatch a DO for every tick of the event loop.
-   */
-  BeadSorter_dispatch_event(&sm, BeadSorter_EventId_DO);
+  /* Initialize and start the state machine */
+  lightbulb_ctor(&sm);
+  lightbulb_start(&sm);
+
+  /* Start an event loop to respond to events and update the state machine. */
+  while(1) {
+      loop();
+  }
+
+  return 0;
 }

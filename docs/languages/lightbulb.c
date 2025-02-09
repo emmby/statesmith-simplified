@@ -123,6 +123,13 @@ static void ROOT_enter(lightbulb* sm)
 static void OFF_enter(lightbulb* sm)
 {
     sm->state_id = lightbulb_StateId_OFF;
+    
+    // Off behavior
+    // uml: enter / { enter_off(); }
+    {
+        // Step 1: execute action `enter_off();`
+        enter_off();
+    } // end of behavior for Off
 }
 
 static void OFF_exit(lightbulb* sm)
@@ -158,6 +165,13 @@ static void OFF_switch(lightbulb* sm)
 static void ON_enter(lightbulb* sm)
 {
     sm->state_id = lightbulb_StateId_ON;
+    
+    // On behavior
+    // uml: enter / { enter_on(); }
+    {
+        // Step 1: execute action `enter_on();`
+        enter_on();
+    } // end of behavior for On
 }
 
 static void ON_exit(lightbulb* sm)

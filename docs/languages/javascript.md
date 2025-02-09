@@ -53,4 +53,4 @@ Now open this `myapp.html` in your browser. Notice that the page updates every t
 
 See this in action online with [myapp.html](myapp.html): [interactive demo](https://emmby.github.io/statesmith-simplified/languages/myapp.html)
 
-
+Congratulations! You've now written your first app using a StateSmith state machine!
