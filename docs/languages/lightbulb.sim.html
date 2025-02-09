@@ -224,9 +224,13 @@ Off
 
 Off : Off
 
+Off : enter / #123; enter_off()#59; #125;
+
 On
 
 On : On
+
+On : enter / #123; enter_on()#59; #125;
 
 ROOT.(InitialState) --> Off
 
@@ -396,6 +400,13 @@ evaluateGuard = null;
             // Step 1: execute action `this.tracer?.enterState('Off');`
             this.tracer?.enterState('Off');
         } // end of behavior for Off
+        
+        // Off behavior
+        // uml: enter / { this.tracer?.log("⚡ FSM would execute action: " + "enter_off();"); }
+        {
+            // Step 1: execute action `this.tracer?.log("⚡ FSM would execute action: " + "enter_off();");`
+            this.tracer?.log("⚡ FSM would execute action: " + "enter_off();");
+        } // end of behavior for Off
     }
     
     #OFF_exit()
@@ -445,6 +456,13 @@ evaluateGuard = null;
         {
             // Step 1: execute action `this.tracer?.enterState('On');`
             this.tracer?.enterState('On');
+        } // end of behavior for On
+        
+        // On behavior
+        // uml: enter / { this.tracer?.log("⚡ FSM would execute action: " + "enter_on();"); }
+        {
+            // Step 1: execute action `this.tracer?.log("⚡ FSM would execute action: " + "enter_on();");`
+            this.tracer?.log("⚡ FSM would execute action: " + "enter_on();");
         } // end of behavior for On
     }
     

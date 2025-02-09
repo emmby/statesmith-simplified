@@ -2,4 +2,11 @@
 [*] -> Off
 Off -> On : Switch
 On -> Off : Switch
+
+' Event handlers
+' Call functions when we enter various states.
+' You can call these functions whatever you want.
+' You will define these functions in your app.
+Off: enter / enter_off();
+On: enter / enter_on();
 @enduml

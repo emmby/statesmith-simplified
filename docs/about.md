@@ -30,6 +30,8 @@ Statesmith is powerful. as a new user, it can be very challenging to figure out 
   
 the new onboarding documentation tackles this by minimizing choices. it gets users up and running with a simple, universally available example, and then builds on that. users can still choose their own adventure and escape into "advanced mode" at any time.
 
+It also demonstrates each feature of statesmith with a clear, interactive example. 
+
 
 #### A simplified, posix style build tool.
 ss.cli is a powerful shell-like tool that is interactive driven first, and xxx second

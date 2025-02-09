@@ -8,20 +8,41 @@ This tutorial will walk you through how to generate JavaScript source code for a
 We recommend completing the following sections before proceeding with this tutorial:
 * [Quickstart](docs/quickstart/quickstart.md)
 
+## Adding event handling to your state machine
+
+We will want to be able to execute some code whenever the state machine changes state, so let's add some
+event handling to the `Off` and `On` states.
+
+Update your lightbulb state machine to look like the following:
+
+<table>
+<tr>
+<td>
+<img src="lightbulb.svg">
+</td>
+<td>
+<pre>
+{% include_relative lightbulb.puml %}
+</pre>
+</td>
+</tr>
+</table>
+
+You can see what the new states look like in the simulator.
+
+<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html"></iframe>
+
+
+It looks like the state machine is doing what we want. Let's go write some code to use our new state machine.
 
 ## Using the State Machine in your own app
-
-> [!WARNING] 
-> TODO this depends on migrating the tracer functionality in the simulator into the state machine.
 
 To use the state machine you created in Quickstart, you'll create a simple html page that loads and uses the state machine.
 
 This page will:
-  1. Load your state machine.
-  2. Pass it a callback with all your implementation details that tell it what to do when
-     it enters various states.
-  3. Create a button that firest the `SWITCH` event.
-  3. Run the machine.
+  1. Implement the `enter_on()` and `enter_off()` callbacks we defined in `lightbulb.puml`.
+  3. Create a button that fires the `SWITCH` event.
+  3. Creates and runs the state machine.
 
 Create a new file called `myapp.html` and add the following
 

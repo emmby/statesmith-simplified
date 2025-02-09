@@ -60,7 +60,7 @@ Take a look at the generated files on the disk. They should look pretty similar 
 Open the `lightbulb.sim.html` simulator in your web browser. Here's the same simulator hosted on github: [lightbulb.sim.html simulator](https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html)
 
 
-<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html"></iframe>
+<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/quickstart/lightbulb.sim.html"></iframe>
 
 Try clicking the `Switch` button on the right and watch the diagram update with the active state. You'll also see the event recorded in the event history on the right hand side.
 

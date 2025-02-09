@@ -4,29 +4,32 @@
     <!-- Load your state machine here -->
     <script src="lightbulb.js"></script>
 
-    <!-- Use your state machine here -->
+    <!-- Define the callbacks you used in lightbulb.puml and instantiate the state machine -->
     <script>
-        // Create an object that will do things when the state changes,
-        // and pass that object to the state machine.
-        // TODO how does the user know what the state names are?
-        statemachine.addListener( {
-            OFF_Switch: function() {
-                document.querySelector('#bulb').textContent = "off";
-            },
-            ON_Switch: function() {
-                document.querySelector('#bulb').textContent = "on";
-            }
-        } );
+        // The callback for the Off state. You can call it whatever you want
+        // as long as it agrees with what you said in lightbulb.puml
+        function enter_off() {
+            document.querySelector('#bulb').textContent = "off";
+        }
 
-        // Create and start the state machine
-        var statemachine = new Lightbulb();
-        statemachine.start();
+        // The callback for the On state.
+        function enter_on() {
+            document.querySelector('#bulb').textContent = "on";
+        }
 
+        // Instantiate the state machine but don't start it yet.
+        var statemachine = new lightbulb();
     </script>
 </head>
-<body>
+
+<!-- Start your statemachine after the html is done loading. -->
+<!-- Otherwise document.querySelector('#bulb') will return null. -->
+<!-- Starting the state machine runs the event loop to respond to events. -->
+<body onload="statemachine.start()">
     <h1>Lightbulb example</h1>
     <p>Light: <span id="bulb"></span> </p>
-    <button onclick="statemachine.dispatchEvent(Lightbulb.EventId.SWITCH)">Switch</button>
+
+    <!-- This button shows how to dispatch events to the state machine. -->
+    <button onclick="statemachine.dispatchEvent(lightbulb.EventId.SWITCH)">Toggle switch</button>
 </body>
 </html>

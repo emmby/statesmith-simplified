@@ -117,6 +117,13 @@ class lightbulb
     #OFF_enter()
     {
         this.stateId = lightbulb.StateId.OFF;
+        
+        // Off behavior
+        // uml: enter / { enter_off(); }
+        {
+            // Step 1: execute action `enter_off();`
+            enter_off();
+        } // end of behavior for Off
     }
     
     #OFF_exit()
@@ -152,6 +159,13 @@ class lightbulb
     #ON_enter()
     {
         this.stateId = lightbulb.StateId.ON;
+        
+        // On behavior
+        // uml: enter / { enter_on(); }
+        {
+            // Step 1: execute action `enter_on();`
+            enter_on();
+        } // end of behavior for On
     }
     
     #ON_exit()
