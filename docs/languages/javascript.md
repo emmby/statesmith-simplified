@@ -21,9 +21,8 @@ Update your lightbulb state machine to look like the following:
 <img src="lightbulb.svg">
 </td>
 <td>
-```puml
+<pre>
 {% include_relative lightbulb.puml %}
-```
 </pre>
 </td>
 </tr>
