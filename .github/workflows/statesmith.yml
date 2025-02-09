@@ -23,7 +23,7 @@ jobs:
       - name: Generate JavaScript state machines using statesmith
         run: |
           find . -name 'lightbulb*'
-          /tmp/ss.cli run --lang=JavaScript --no-ask --no-csx -hr -b
+          /tmp/ss.cli run --lang=JavaScript,C99 --no-ask --no-csx -hr -b
           find . -name 'lightbulb*'
           
       - name: Push Local Changes
