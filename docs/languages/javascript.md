@@ -33,18 +33,17 @@ Now run `statesmith` to generate code for this state machine.
 
 Take a look at the generated files on the disk. They should look pretty similar to the ones in the links below.
 
-* [lightbulb.js](lightbulb.js): The generated JavaScript state machine. You can include this state machine in your JavaScript apps
+* [lightbulb.js](lightbulb.js): This is the **generated JavaScript state machine.** You can include this state machine in your JavaScript apps.
 * [lightbulb.sim.html](lightbulb.sim.html): A simple simulator that runs your statemachine and allows you to interact with it.
 
-The `lightbulb.js` state machine is the file you really care about, but the simulator can be immensely helpful for testing and debugging.
-
-Open the `lightbulb.sim.html` simulator in your web browser. Here's the same simulator hosted on github: [lightbulb.sim.html](https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html)
+Open the `lightbulb.sim.html` simulator in your web browser. Here's the same simulator hosted on github: [lightbulb.sim.html simulator](https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html)
 
 
 <iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html"></iframe>
 
+Congratulations! You've generated your first StateSmith state machine and played around in it with our built in simulator.
 
-Now that you've been able to interact with your state machine, let's look at how to use it in your own app.
+Next let's look at how to use it in your own app.
 
 
 ## Using the State Machine in your own app
