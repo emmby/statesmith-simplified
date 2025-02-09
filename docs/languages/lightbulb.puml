@@ -1,6 +1,6 @@
 @startuml TODO
 ' lightbulb.puml
 [*] -> Off
-Off -> On : Switch pressed
-On -> Off : Switch pressed
+Off -> On : Switch
+On -> Off : Switch
 @enduml
