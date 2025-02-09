@@ -60,3 +60,6 @@ github integration documentation.
 ## TODO
 * package manager support
 * google analytics support to track broken pages
+* The github action is a bit overly-enthusiastic. It generates more languages than
+  necessary. It might be better to have each directory have a little makefile to
+  generate just what it needs.
