@@ -7,14 +7,17 @@ This PR addresses various onboarding usability challenges for new statesmith use
 
 #### Documentation is consolidated onto GitHub Pages.
 Previously, documentation was a mix
-  of GitHub Docs, Pages, and Wiki. This made it hard to find content, resulted in parts
-  of things being documented in the wiki and other parts in docs, etc. The Wiki was difficult
-  to maintain and Docs was not as flexible as Pages. 
+of GitHub Docs, Pages, and Wiki. This made it hard to find content, resulted in parts
+of things being documented in the wiki and other parts in docs, etc. The Wiki was difficult
+to maintain and Docs was not as flexible as Pages. 
 
-  Using Pages enabled us to customize, doing things like:
-  * add a navigation sidebar
-  * embed *.puml and generated *.svg files directly into the page
-  * embed the simulator directly into the page as an iframe
+Using Pages enabled us to customize, doing things like:
+* add a navigation sidebar
+* embed *.puml and generated *.svg files directly into the page
+* embed the simulator directly into the page as an iframe
+
+It also makes documentation much easier to maintain and update than the Wiki. Anyone can submit a documentation
+update along with the rest of their PR.
 
     
 #### Simplifed onboarding.
