@@ -1,11 +1,7 @@
 # Assumes that ss.cli is in your path
 
-all: images statemachines
-
-images: /tmp/plantuml.jar
+all: /tmp/plantuml.jar
 	java -jar /tmp/plantuml.jar -headless -tsvg lightbulb.puml	
-	
-statemachines:
 	ss.cli run --lang=JavaScript --no-ask --no-csx -h -b
 
 # This depends on graphviz
