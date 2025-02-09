@@ -1,5 +1,4 @@
 @startuml lightbulb
-' lightbulb.puml
 [*] -> Off
 Off -> On : Switch
 On -> Off : Switch
