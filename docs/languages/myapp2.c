@@ -10,7 +10,11 @@ void enter_off() {
   printf("Lightbulb is off\n");
 }
 
-/* Include the generated state machine */
+/* 
+ * Include the generated state machine.
+ * We manually renamed lightbulb.c to lightbulb.inc.h to emphasize
+ * that it is an included file and not a standalone source file.
+ */
 #include "lightbulb.inc.h"
 
 /* Instantiate the state machine struct */
