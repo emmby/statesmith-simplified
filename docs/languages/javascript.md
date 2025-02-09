@@ -38,7 +38,6 @@ It looks like the state machine is doing what we want. Let's go write some code 
 ## Using the State Machine in your own app
 
 To use the state machine you created in Quickstart, you'll create a simple html page that loads and uses the state machine.
-
 This page will:
   1. Implement the `enter_on()` and `enter_off()` callbacks we defined in `lightbulb.puml`.
   3. Create a button that fires the `SWITCH` event.
@@ -46,7 +45,7 @@ This page will:
 
 Create a new file called `myapp.html` and add the following
 
-```
+```html
 {% include_relative myapp.html %}
 ```
 
