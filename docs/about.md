@@ -28,6 +28,9 @@ using stack overflow 35080160
 meet the users where they are. support popular package managers via github actions
 
 
+#### making plantuml work out of the box
+https://github.com/StateSmith/StateSmith/issues/438
+
 
 
 ## TODO
