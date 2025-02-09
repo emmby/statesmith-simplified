@@ -15,15 +15,15 @@ jobs:
 
       - name: Download ss.cli
         run: |
-          curl -sSL -o ss.cli https://github.com/StateSmith/StateSmith/releases/download/cli-v0.17.4/ss.cli-linux-x64
-          chmod a+x ss.cli
+          curl -sSL -o /tmp/ss.cli https://github.com/StateSmith/StateSmith/releases/download/cli-v0.17.4/ss.cli-linux-x64
+          chmod a+x /tmp/ss.cli
           ls -l 
-          ./ss.cli --version
+          /tmp/ss.cli --version
 
       - name: Generate JavaScript state machines using statesmith
         run: |
           find . -name 'lightbulb*'
-          ./ss.cli run --lang=JavaScript --no-ask --no-csx -hr -b
+          /tmp/ss.cli run --lang=JavaScript --no-ask --no-csx -hr -b
           find . -name 'lightbulb*'
           
       - name: Push Local Changes
