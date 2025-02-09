@@ -61,7 +61,7 @@ add the following contents to a new file `myapp.c`. This code will:
 2. Start an event loop that tickles the state machine with every tick of the loop.
 3. Implement callbacks to do things as the machine enters different states.
 
-```
+```c
 /* myapp.c */
 {% include_relative myapp.c %}
 ```
