@@ -18,9 +18,12 @@ When an event is dispatched the state machine responds by performing actions, su
 </tr>
 </table>
 
+<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/statemachine_reference/actions/lightbulb.sim.html"></iframe>
+
+
 ## Trigger and action syntax
 
-The syntax for actions and triggers are as follows:
+The syntax for actions and triggers is:
 
 `trigger / action`
 
