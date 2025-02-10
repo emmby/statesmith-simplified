@@ -41,6 +41,6 @@ Create a new file called `myapp.html` and add the following
 
 Now open this `myapp.html` in your browser. Notice that the page updates every time you click the Switch button!
 
-<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/javascript/myapp.html"></iframe>
+<iframe height="200" width="600" src="https://emmby.github.io/statesmith-simplified/languages/javascript/myapp.html"></iframe>
 
 Congratulations! You've now written your first app using a StateSmith state machine!
