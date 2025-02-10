@@ -8,7 +8,9 @@ When an event is dispatched the state machine responds by performing actions, su
 <table>
 <tr>
 <td>
+
 <img src="lightbulb.svg">
+
 </td>
 <td>
 <pre>
