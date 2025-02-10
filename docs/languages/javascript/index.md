@@ -41,6 +41,6 @@ Create a new file called `myapp.html` and add the following
 
 Now open this `myapp.html` in your browser. Notice that the page updates every time you click the Switch button!
 
-See this in action online with [myapp.html](myapp.html): [interactive demo](https://emmby.github.io/statesmith-simplified/languages/javascript/myapp.html)
+See this in action online with [myapp.html](myapp.html).
 
 Congratulations! You've now written your first app using a StateSmith state machine!
