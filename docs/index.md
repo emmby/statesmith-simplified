@@ -71,7 +71,7 @@ On -> Off : Switch pressed
  2. run `statesmith light.puml`
  3. add the resulting state machine code to your C, C++, C#, Java, JavaScript, or TypeScript app.
 
-Learn more in our [Quickstart](https://emmby.github.io/statesmith-simplified/quickstart.html) tutorial.
+Learn more in our [Quickstart](https://emmby.github.io/statesmith-simplified/quickstart/) tutorial.
 
 
 
