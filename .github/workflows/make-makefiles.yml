@@ -32,5 +32,5 @@ jobs:
       - name: Push Local Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Generate SVG files for PlantUML diagrams"
+          commit_message: "Run makefiles in docs directory"
           branch: ${{ github.head_ref }}
