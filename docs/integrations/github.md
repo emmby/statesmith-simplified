@@ -83,7 +83,7 @@ Upload your images to GitHub and using markdown or html to render them, eg.
   ![lightbulb](lightbulb.drawio.svg)
 ```
 ```
-<img src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.drawio.svg" >
+<img src="https://emmby.github.io/statesmith-simplified/integrations/lightbulb.drawio.svg" >
 ```
 
 TODO drawio example svg

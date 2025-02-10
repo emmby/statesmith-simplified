@@ -23,7 +23,7 @@ This example uses `enter` and `exit` events to trigger the `enter_off()` and `en
 </tr>
 </table>
 
-<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/statemachine_reference/actions/lightbulb.sim.html"></iframe>
+<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/statemachine_reference/events/lightbulb.sim.html"></iframe>
 
 
 ## User-defined events

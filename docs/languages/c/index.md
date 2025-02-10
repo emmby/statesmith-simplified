@@ -28,7 +28,7 @@ Update your lightbulb state machine to look like the following:
 
 You can see what the new states look like in the simulator.
 
-<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html"></iframe>
+<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/c/lightbulb.sim.html"></iframe>
 
 
 It looks like the state machine is doing what we want. Let's go write some code to use our new state machine.
@@ -49,7 +49,7 @@ Take a look at the generated files on the disk. They should look pretty similar 
 * [lightbulb.c](lightbulb.c): This is the generated implementation for your state machine. You generally won't need to do much with the implementation, but it can be interested to inspect to see how it works.
 * [lightbulb.sim.html](lightbulb.sim.html): A simple simulator that runs your statemachine and allows you to interact with it. It's not needed, but can be handy. You can disable generation of the simulator with the `--no-sim-gen` option.
 
-Open the `lightbulb.sim.html` simulator in your web browser to verify your state machine works the way you expect. Here's the same simulator hosted on github: [lightbulb.sim.html simulator](https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html)
+Open the `lightbulb.sim.html` simulator in your web browser to verify your state machine works the way you expect. Here's the same simulator hosted on github: [lightbulb.sim.html simulator](https://emmby.github.io/statesmith-simplified/languages/c/lightbulb.sim.html)
 
 
 ## Using the State Machine in your own app

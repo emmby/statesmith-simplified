@@ -29,7 +29,7 @@ Update your lightbulb state machine to look like the following:
 
 You can see what the new states look like in the simulator.
 
-<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/lightbulb.sim.html"></iframe>
+<iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/languages/javascript/lightbulb.sim.html"></iframe>
 
 
 It looks like the state machine is doing what we want. Let's go write some code to use our new state machine.
@@ -50,6 +50,6 @@ Create a new file called `myapp.html` and add the following
 
 Now open this `myapp.html` in your browser. Notice that the page updates every time you click the Switch button!
 
-See this in action online with [myapp.html](myapp.html): [interactive demo](https://emmby.github.io/statesmith-simplified/languages/myapp.html)
+See this in action online with [myapp.html](myapp.html): [interactive demo](https://emmby.github.io/statesmith-simplified/languages/javascript/myapp.html)
 
 Congratulations! You've now written your first app using a StateSmith state machine!
