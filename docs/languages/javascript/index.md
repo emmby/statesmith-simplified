@@ -14,18 +14,9 @@ We will want to be able to execute some code whenever the state machine changes 
 
 Update your lightbulb state machine to look like the following:
 
-<table>
-<tr>
-<td>
-<img src="lightbulb.svg">
-</td>
-<td>
-<pre>
+```
 {% include_relative lightbulb.puml %}
-</pre>
-</td>
-</tr>
-</table>
+```
 
 You can see what the new states look like in the simulator.
 

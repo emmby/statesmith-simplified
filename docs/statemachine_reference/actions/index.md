@@ -5,20 +5,9 @@ When an event is dispatched the state machine responds by performing actions, su
 
 ## A Simple Example
 
-<table>
-<tr>
-<td>
-
-<img src="lightbulb.svg">
-
-</td>
-<td>
-<pre>
+```
 {% include_relative lightbulb.puml %}
-</pre>
-</td>
-</tr>
-</table>
+```
 
 <iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/statemachine_reference/actions/lightbulb.sim.html"></iframe>
 

@@ -10,18 +10,9 @@ these triggers to run arbitrary actions.
 
 This example uses `enter` and `exit` events to trigger the `enter_off()` and `enter_on()` actions.
 
-<table>
-<tr>
-<td>
-<img src="lightbulb.svg">
-</td>
-<td>
-<pre>
+```
 {% include_relative lightbulb.puml %}
-</pre>
-</td>
-</tr>
-</table>
+```
 
 <iframe height="300" width="600" src="https://emmby.github.io/statesmith-simplified/statemachine_reference/events/lightbulb.sim.html"></iframe>
 
