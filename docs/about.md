@@ -64,3 +64,4 @@ github integration documentation.
   necessary. It might be better to have each directory have a little makefile to
   generate just what it needs.
 * Add a link to allow readers to file feedback bugs in the footer
+* Force makefiles to run before github pages are generated
