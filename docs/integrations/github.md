@@ -44,8 +44,6 @@ jobs:
 
 Other image formats such as PNG are easily achievable by modifying the formula slightly.
 
-We use this action ourselves to generate the images for these docs. See it [in action here](https://github.com/emmby/statesmith-simplified/blob/main/.github/workflows/puml-to-svg.yml) to generate [this](lightbulb.svg) from this [PlantUML file](lightbulb.puml).
-
 You can use the generated images in markdown or html:
 
 ```
